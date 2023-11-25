@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2? family= Lora:ital@1 & display=swap');
+
+:root{
+    --fonte5:'Lora', serif;
+}
+
+body {
+    font-family: var(--fonte5);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    align-items: center; 
+    font-family: var(--fonte1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-family: var(--fonte1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+  
+}
+
+nav li {
+ 
+    margin-left: 20px;
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #E87A58;
+}
+
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    color: #333;
+}
+
+.servico {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.servico img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1;
+    height: 100%;
+    display: flex;
+    padding: 10px 0%;  
+       
+}
+
+
+.servico h3 {
+    margin: 20px 0 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.servico p {
+    color: #666;
+}
+
+.bg-light {
+    background-color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.banner {
+    background-image: url(imagens/banner1.png);
+    background-repeat: no-repeat;
+    height: 450px;
+    background-size: 100%;
+}
+
+#img_duda {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.div1{
+    display: flex;
+    align-items: flex-start;
+    background-color: #FFD0CA;
+    width: 1350px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 305px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover; 
+    border-radius: 15px 15px 0 0;
+}
+
+.imagem-1 {
+    background-image: url(imagens/sobrancelha1.jpg);
+}
+
+.image-2{
+    background-image: url(imagens/sps1.jpg);
+}
+
+.image-3{
+    background-image: url(imagens/ldp1.jpg);
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: #FFD0CA;
+    color: black;
+    padding: 15px 10px;
+    display: block;
+    text-align: center;
+    margin: 30px 60px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: #bdbdbd;
+    cursor:default;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #b1adad;
+    height: 50px;
+}
+
+.descricao {
+    font-size: 22px; 
+    line-height: 1.6; 
+    letter-spacing: 0.5px; 
+    color: #333; 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+    margin-left: 10px;
+    
+}
+
+.map-container {
+    width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    height: 300px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.contato {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.div3 {
+    height: 3.0em;
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+.efeito{
+    box-shadow: #333;
+    background-size: cover;
+}
+
+section#img01{
+    background-image: url(imagens/est1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.div-com-espaço{
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
