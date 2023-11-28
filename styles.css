@@ -116,7 +116,8 @@ footer {
     background-image: url(imagens/banner1.png);
     background-repeat: no-repeat;
     height: 450px;
-    background-size: 100%;
+    background-size: contain;
+    background-position: center;
 }
 
 #img_duda {
@@ -124,14 +125,6 @@ footer {
     width: 300px;
     border-radius: 50%;
 }
-
-.div1{
-    display: flex;
-    align-items: flex-start;
-    background-color: #FFD0CA;
-    width: 1350px;
-}
-
 .container{
     display: flex;
     justify-content: center;
@@ -292,6 +285,12 @@ iframe {
         height: auto; 
         padding-bottom: 60%;
     }
+    .banner {
+        height: auto; /* Ajuste a altura conforme necessário para dispositivos móveis */
+        background: size 100%;; /* Ou qualquer outra propriedade de background-size desejada */
+        
+    }
+    
     
 }
 .imagem-duda {
